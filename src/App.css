@@ -9,9 +9,29 @@
   color: #e0e0e0; /* Light text color for contrast */
   position : relative;
 }
-  
+  .lines{
+    height : 2px;
+    width : 50px;
+    background-color : white
+  }
+.loading-overlay-child{
+  border  : 5px solid transparent ;
+  border-bottom : 5px solid blue;
+  border-left : 5px solid blue;
+  border-radius : 50% ;
+  width : 70px !important;
+  height : 70px !important;
+  animation: mymove 1s infinite;
+}
 
-
+@keyframes mymove {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 .logo {
   display: flex;
   align-items: center;
