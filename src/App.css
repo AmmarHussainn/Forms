@@ -357,6 +357,7 @@ pre {
  }
  .supporter-div{
   margin-top: 10px !important;
+  flex-direction : row-reverse;
  }
  .objective-options{ 
   width: 100% !important;
@@ -369,7 +370,10 @@ pre {
  input{
   width: 100% !important;
  }
- .N-box{
+ .N-box {
   width: 94% !important;
- }
+  
+  margin-right: 10px !important;
+}
+
 }
